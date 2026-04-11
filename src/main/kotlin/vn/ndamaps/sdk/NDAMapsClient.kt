@@ -14,7 +14,7 @@ import java.time.Duration
 data class ClientOptions(
     val apiKey: String,
     val mapsApiBase: String = "https://mapapis.ndamaps.vn/v1",
-    val tilesBase: String = "https://maptiles.openmap.vn",
+    val tilesBase: String = "https://maptiles.ndamaps.vn",
     val ndaViewBase: String = "https://api-view.ndamaps.vn/v1",
     val maxRetries: Int = 3,
     val baseDelayMs: Long = 500
