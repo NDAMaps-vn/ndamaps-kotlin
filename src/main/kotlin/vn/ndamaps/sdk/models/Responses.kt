@@ -6,7 +6,7 @@ package vn.ndamaps.sdk.models
 
 // ── Shared ────────────────────────────────────
 
-data class LatLng(val lat: Double, val lng: Double)
+// LatLng is defined in LatLng.kt
 
 data class TextValue(val text: String, val value: Double)
 
